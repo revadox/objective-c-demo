@@ -41,8 +41,9 @@ int main(){
     
     Employee *dl = [[Employee alloc]init];
     [dl someMethod];
+    [dl setName:@"hello"];
     
-    [dl setName:@"jonny"];
+ 
     
     return 0;
     
