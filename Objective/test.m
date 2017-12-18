@@ -43,6 +43,11 @@ int main(){
     [dl someMethod];
     [dl setName:@"hello"];
     
+    NSArray *arr = [[NSArray alloc]initWithObjects:@"one",@"two",@"three", nil];
+    
+    NSLog(@"this is array %@ ",arr[2]);
+    
+    
  
     
     return 0;
